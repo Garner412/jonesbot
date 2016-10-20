@@ -12,8 +12,14 @@ class Twootter
     end
   end
 
-  def search(username)
-    client.user_timeline(username)
+  def search(username,count)
+    options = {count: count}
+    client.user_timeline(username,options)
+  end
+
+  def nearby(params,count)
+    options = {count: count, geocode: "#{params[0]},#{params[1]},#{params[2]}",result_type: "recent"}
+    client.search("",options)
   end
 
 end

@@ -1,6 +1,6 @@
 post '/tweets' do
   twtr = Twootter.new
-  @tweets = twtr.search(params[:twitterhandle],50)
+  @tweets = twtr.search(params[:twitterhandle],20)
   erb :'tweets/index'
 end
 

@@ -1,0 +1,69 @@
+h1 {
+  text-align:center;
+}
+
+/*main {
+  width: 100%;
+}*/
+
+#gameboard {
+  margin: 0 auto;
+  padding: 0;
+  width: 470px;
+}
+
+.gametd {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+
+tr:nth-child(3) td {
+  border-bottom: 4px solid black;
+}
+
+tr:nth-child(6) td {
+  border-bottom: 4px solid black;
+
+}
+
+td:nth-child(3)  {
+  border-right: 4px solid black;
+
+}
+
+td:nth-child(6)  {
+  border-right: 4px solid black;
+}
+
+.gameinput {
+  width: 50px;
+  padding: 0;
+  margin: 0 0 0 0 ;
+  text-align: center;
+  font-size: 200%;
+  height: 50px;
+  box-shadow: none;
+}
+
+.given {
+  text-align: center;
+  font-size: 200%;
+  vertical-align: center;
+  background-color:   #f2f2f2;
+  box-shadow: none;
+  height: 50px;
+  margin: 2px 0 0 0 ;
+  padding 0;
+}
+
+.navbar-custom {
+    background-color: #669980;
+}
+
+.nav.navbar-nav li a  {
+    color: #ffffff;
+}

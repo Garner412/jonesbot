@@ -1,0 +1,8 @@
+<div>
+  <%= erb :'tweets/_search', layout: false %>
+</div>
+<h1>My tweets</h1>
+
+<% @tweets.each do |tweet| %>
+  <%= erb :'tweets/_show', layout: false, locals: {tweet: tweet} %>
+<% end %>

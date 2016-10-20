@@ -16,6 +16,7 @@ gem 'shotgun'
 gem 'bcrypt'
 gem 'twitter'
 gem 'dotenv'
+gem 'omniauth-twitter'
 
 group :test do
   gem 'shoulda-matchers'

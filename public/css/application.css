@@ -39,7 +39,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 
 .articleimg {
   max-width: 90%;
-  max-height: 90%;
+  max-height: 50%;
   margin: auto;
   text-align: center;
   display: block;

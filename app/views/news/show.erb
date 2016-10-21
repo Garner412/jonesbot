@@ -1,0 +1,12 @@
+
+<div>
+  <% @resp["articles"].each do |article| %>
+    <div class="panel">
+      <div class="newscontent">
+        <h4><a href="<%= article["url"] %>"><%= article["title"] %></a></h4>
+        <p><%= article["description"]%></p>
+      </div>
+      <img src="<%= article["urlToImage"] %>">
+    </div>
+  <% end %>
+</div>

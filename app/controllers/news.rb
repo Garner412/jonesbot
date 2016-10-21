@@ -1,5 +1,12 @@
 get '/news' do
-  @resp = HTTParty.get("https://newsapi.org/v1/articles?source=espn&sortBy=top&apiKey=#{ENV['NEWS_KEY']}", "Accept" => "application/json")
+  resp = Newsapi.get_sources
+  @sources = resp["sources"]
   erb :'news/index'
-  # p @resp.to_json
 end
+
+get '/news/:sourcename' do
+  @resp = Newsapi.search(params[:sourcename])
+  pp @resp
+  erb :'news/show'
+end
+

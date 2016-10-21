@@ -1,5 +1,5 @@
 .container {
-  width: 800px;
+  width: 1000px;
   border: 2px solid black;
   margin: 0 auto;
   padding: 20px;
@@ -31,3 +31,23 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   color: #666;
   font-size: 12px;
 }
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.panel {
+  max-width: 900px;
+  background-color: #d8d8d8;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.newscontent {
+  padding: 10px;
+}
+

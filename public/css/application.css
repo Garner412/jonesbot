@@ -1,3 +1,9 @@
+.emaillinks {
+  position: absolute;
+  bottom: 15px;
+  left: 31%;
+}
+
 .center {
   margin: auto;
   text-align: center;
@@ -47,12 +53,13 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 
 .panel {
   max-width: 45%;
-  height: 400px;
+  height: 450px;
   display: inline-block;
   background-color: #d8d8d8;
   margin: 10px;
   padding: 10px;
   vertical-align: top;
+  position: relative;
 }
 
 .newscontent {
@@ -84,7 +91,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 .news-list {
   text-align: center;
   width: 30%;
-  height: 180px;
+  height: 240px;
   display: inline-block;
   background-color: #d8d8d8;
   margin: 10px;
@@ -98,3 +105,11 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   display: block;
 }
 
+.email-button {
+  background-color: orange;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 5px;
+}

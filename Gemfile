@@ -18,7 +18,7 @@ gem 'twitter'
 gem 'dotenv'
 gem 'omniauth-twitter'
 gem 'pry'
-gem 'google-api-client'
+gem 'gmail'
 
 
 group :test do

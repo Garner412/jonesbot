@@ -1,7 +1,10 @@
 <h1>Pick a news source to search</h1>
 
-<ul>
-<% @sources.each do |source|%>
-  <li><a href="/news/<%=source["id"]%>"><%=source["name"]%></a></li>
-<% end %>
-</ul>
+<div class="center">
+  <% @sources.each do |source|%>
+    <div class="news-list">
+      <h4><a href="/news/<%=source["id"]%>"><%=source["name"]%></a></h4>
+      <img class ="sourceimage" src="<%= source["urlsToLogos"]["small"] %>">
+    </div>
+  <% end %>
+</div>

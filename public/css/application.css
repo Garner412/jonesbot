@@ -70,7 +70,6 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   margin-left: 50px;
   display: inline-block;
   padding: 20px;
-  border: 1px solid red;
   vertical-align: top;
 }
 
@@ -79,7 +78,6 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   margin: auto;
   display: inline-block;
   padding: 20px;
-  border: 1px solid red;
   vertical-align: top;
 }
 

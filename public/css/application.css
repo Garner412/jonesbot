@@ -1,5 +1,10 @@
+.center {
+  margin: auto;
+  text-align: center;
+}
+
 .container {
-  width: 800px;
+  width: 1000px;
   border: 2px solid black;
   margin: 0 auto;
   padding: 20px;
@@ -31,3 +36,65 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   color: #666;
   font-size: 12px;
 }
+
+.articleimg {
+  max-width: 90%;
+  max-height: 50%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.panel {
+  max-width: 45%;
+  height: 400px;
+  display: inline-block;
+  background-color: #d8d8d8;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.newscontent {
+  padding: 10px;
+}
+
+.red-blue-pill {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.blue-pill {
+  width: 45%;
+  margin-left: 50px;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.red-pill {
+  width: 45%;
+  margin: auto;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.news-list {
+  text-align: center;
+  width: 30%;
+  height: 180px;
+  display: inline-block;
+  background-color: #d8d8d8;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sourceimage {
+  vertical-align: middle;
+  max-height: 65% ;
+  margin: auto;
+  display: block;
+}
+

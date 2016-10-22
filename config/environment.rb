@@ -20,6 +20,8 @@ require 'twitter'
 require 'bcrypt'
 require 'dotenv'
 require 'omniauth-twitter'
+require 'pry'
+require 'pp'
 
 require 'erb'
 require_relative '../app/models/twootter'

@@ -17,6 +17,8 @@ gem 'bcrypt'
 gem 'twitter'
 gem 'dotenv'
 gem 'omniauth-twitter'
+gem 'pry'
+
 
 group :test do
   gem 'shoulda-matchers'

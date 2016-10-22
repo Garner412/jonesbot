@@ -22,6 +22,7 @@ require 'dotenv'
 require 'omniauth-twitter'
 require 'pry'
 require 'pp'
+require 'gmail'
 
 require 'erb'
 require_relative '../app/models/twootter'

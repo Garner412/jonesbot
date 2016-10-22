@@ -7,6 +7,15 @@
         <p><%= article["description"]%></p>
       </div>
       <img class="articleimg" src="<%= article["urlToImage"] %>">
+      <div class="emaillinks">
+        <!-- <a href="/email/new">Email Article</a> -->
+        <form action="/email/kyle" method="post">
+          <input type="hidden" name="subject" value="<%= article["title"] %>">
+          <input type="hidden" name="body" value="<%= article["description"] %>">
+          <input type="hidden" name="url" value="<%= article["url"] %>">
+          <input class="email-button" type="submit" value="Email Article to Kyle">
+        </form>
+      </div>
     </div>
   <% end %>
 </div>

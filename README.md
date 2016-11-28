@@ -13,3 +13,6 @@ House of Horrors is a project that allows for the use of Twitter or offical news
 ### Developed by:
 - Greg Garner
 - Henry Fyfe
+
+### License
+House of Horrors is released under the [MIT License](https://opensource.org/licenses/MIT)
